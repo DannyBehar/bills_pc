@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 	#layout false
 
 	def search
-
+		
 	end
 
 	def index

@@ -1,5 +1,57 @@
-<LINK REL=StyleSheet HREF="assets/home.css" TYPE="text/css" MEDIA=screen>
+<%unless @pokemons.empty? %>
+	<div class= "CSSTableGenerator">
+	<table style="none" >
+		<tr>
+			<td>Species</td>
+			<td>Name</td>
+			<td>Generation</td>
+			<td>HP</td>
+			<td>Attack</td>
+			<td>Defense</td>
+			<td>Special Attack</td>
+			<td>Special Defense</td>
+			<td>Speed</td>
+			<td>Move One</td>
+			<td>Move Two</td>
+			<td>Move Three</td>
+			<td>Move Four</td>
+			<td>Preffered trade</td>
+			<td>Offer Ends</td>
+		</tr>
+     <% @pokemons.each do |row| %>
+     <tr>
+	 	<%if row.name%>
+	 		<td><%= row.name%></td>
+	 		<td><%= row.nickname%></td>
+	 		<td><%= row.gen%></td>
+	 		<td><%= row.hp%></td>
+	 		<td><%= row.atk%></td>
+	 		<td><%= row.def%></td>
+	 		<td><%= row.spatk%></td>
+	 		<td><%= row.spdef%></td>
+	 		<td><%= row.spd%></td>
+	 		<td><%= row.moveone%></td>
+	 		<td><%= row.movetwo%></td>
+	 		<td><%= row.movethree%></td>
+	 		<td><%= row.movefour%></td>
+	 		<td><%= row.preftrade%></td>
+	 		<td><%= row.offends%></td>
+
+	 	<%end%>
+	 </tr>
+<% end %>
+	</table>
+</div>
+
+<%else %>
+<p>Your search found 0 entries</p>
+<%end%>
+
+<p><% puts @pokemons.to_s%><p>
+
+<br>
+<br>
+<%= link_to "Back", controller: "home", action: "index"%>
 
 
-<h1>SearchPokemon#search</h1>
-<p>Find me in app/views/search_pokemon/search.html.erb</p>
+

@@ -1,1 +1,14 @@
-THE RESULTS
+<%if @home%>
+	<table>
+     <% @home.each do |row| %>
+     <tr>
+	 	<%if row.name%>
+	 	<td><%= row.name%></td>
+	 	<%end%>
+	 </tr>
+<% end %>
+	</table>
+
+<%else %>
+<p>Your search found 0 entries</p>
+<%end%>
