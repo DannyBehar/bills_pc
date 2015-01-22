@@ -2,3 +2,64 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+h1 {
+
+	text-align: center;
+}
+
+h2{
+
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+/* Pokemon Types */
+
+
+/* Normal Type */
+
+	
+.normalbtn {
+  background: #B8A038;
+  background-image: -webkit-linear-gradient(top, #B8A038, #B8A038);
+  background-image: -moz-linear-gradient(top, #B8A038, #B8A038);
+  background-image: -ms-linear-gradient(top, #B8A038, #B8A038);
+  background-image: -o-linear-gradient(top, #B8A038, #B8A038);
+  background-image: linear-gradient(to bottom, #B8A038, #B8A038);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid #786824 2px;
+  text-shadow: 1px 1px 3px #666666;
+}
+
+.firebtn {
+  background: #F08030;
+  background-image: -webkit-linear-gradient(top, #F08030, #F08030);
+  background-image: -moz-linear-gradient(top, #F08030, #F08030);
+  background-image: -ms-linear-gradient(top, #F08030, #F08030);
+  background-image: -o-linear-gradient(top, #F08030, #F08030);
+  background-image: linear-gradient(to bottom, #F08030, #F08030);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;;
+  border: solid #a35521 2px;
+  text-decoration: none;
+}
+
+
+
+

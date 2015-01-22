@@ -1,18 +1,35 @@
 <% stylesheet_link_tag('application')%>
-<p>Search for a Pokemon:</p>
-
+<h2> Search for a Pokemon</h2>
+<hr>
 <%= form_tag("searchpokemon/search", method: "get") do %>
-  <%= label_tag(:q, "Search for:") %>
+  <h3> Search By Name</h3>
   <%= text_field_tag(:q) %>
   <%= submit_tag("Search") %>
 <% end %>
-<br>
 
-Pokemon Type:<input type="text" name="type">
+
+<h2>OR</h2>
+
+<h3>Search By Type</h3>
 <br>
 
 <input type="submit" value="Submit">
 </form>
+<br>
+<br>
+<table>
+<tr>
+	<td><a class='normalbtn' href= 'www.google.com'>Normal</a></td>
+	
+
+</tr>
+<tr>
+	<td><a class='firebtn' href= 'www.google.com'>fire</a></td>
+</tr>
+
+</table>
+
+
 
  
 

@@ -31,99 +31,98 @@ img{
 }
 
 .CSSTableGenerator {
-	margin:0px;padding:0px;
-	width:100%;
-	box-shadow: 10px 10px 5px #888888;
-	border:1px solid #000000;
-	
-	-moz-border-radius-bottomleft:0px;
-	-webkit-border-bottom-left-radius:0px;
-	border-bottom-left-radius:0px;
-	
-	-moz-border-radius-bottomright:0px;
-	-webkit-border-bottom-right-radius:0px;
-	border-bottom-right-radius:0px;
-	
-	-moz-border-radius-topright:0px;
-	-webkit-border-top-right-radius:0px;
-	border-top-right-radius:0px;
-	
-	-moz-border-radius-topleft:0px;
-	-webkit-border-top-left-radius:0px;
-	border-top-left-radius:0px;
+  margin:0px;padding:0px;
+  width:100%;
+  border:1px solid #000000;
+  
+  -moz-border-radius-bottomleft:0px;
+  -webkit-border-bottom-left-radius:0px;
+  border-bottom-left-radius:0px;
+  
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-bottom-right-radius:0px;
+  
+  -moz-border-radius-topright:0px;
+  -webkit-border-top-right-radius:0px;
+  border-top-right-radius:0px;
+  
+  -moz-border-radius-topleft:0px;
+  -webkit-border-top-left-radius:0px;
+  border-top-left-radius:0px;
 }.CSSTableGenerator table{
     border-collapse: collapse;
         border-spacing: 0;
-	width:100%;
-	height:100%;
-	margin:0px;padding:0px;
+  width:100%;
+  height:100%;
+  margin:0px;padding:0px;
 }.CSSTableGenerator tr:last-child td:last-child {
-	-moz-border-radius-bottomright:0px;
-	-webkit-border-bottom-right-radius:0px;
-	border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-bottom-right-radius:0px;
 }
 .CSSTableGenerator table tr:first-child td:first-child {
-	-moz-border-radius-topleft:0px;
-	-webkit-border-top-left-radius:0px;
-	border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  -webkit-border-top-left-radius:0px;
+  border-top-left-radius:0px;
 }
 .CSSTableGenerator table tr:first-child td:last-child {
-	-moz-border-radius-topright:0px;
-	-webkit-border-top-right-radius:0px;
-	border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  -webkit-border-top-right-radius:0px;
+  border-top-right-radius:0px;
 }.CSSTableGenerator tr:last-child td:first-child{
-	-moz-border-radius-bottomleft:0px;
-	-webkit-border-bottom-left-radius:0px;
-	border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  -webkit-border-bottom-left-radius:0px;
+  border-bottom-left-radius:0px;
 }.CSSTableGenerator tr:hover td{
-	
+  
 }
-.CSSTableGenerator tr:nth-child(odd){ background-color:#ffaa56; }
-.CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
-	vertical-align:middle;
-	
-	
-	border:1px solid #000000;
-	border-width:0px 1px 1px 0px;
-	text-align:left;
-	padding:7px;
-	font-size:10px;
-	font-family:Arial;
-	font-weight:normal;
-	color:#000000;
+.CSSTableGenerator tr:nth-child(odd){ background-color:#eaeafc; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#fce8e8; }.CSSTableGenerator td{
+  vertical-align:middle;
+  
+  
+  border:1px solid #000000;
+  border-width:0px 1px 1px 0px;
+  text-align:center;
+  padding:7px;
+  font-size:10px;
+  font-family:Arial;
+  font-weight:normal;
+  color:#000000;
 }.CSSTableGenerator tr:last-child td{
-	border-width:0px 1px 0px 0px;
+  border-width:0px 1px 0px 0px;
 }.CSSTableGenerator tr td:last-child{
-	border-width:0px 0px 1px 0px;
+  border-width:0px 0px 1px 0px;
 }.CSSTableGenerator tr:last-child td:last-child{
-	border-width:0px 0px 0px 0px;
+  border-width:0px 0px 0px 0px;
 }
 .CSSTableGenerator tr:first-child td{
-		background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
-	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+    background:-o-linear-gradient(bottom, #e5e5e5 5%, #e5e5e5 100%);  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e5e5e5), color-stop(1, #e5e5e5) );
+  background:-moz-linear-gradient( center top, #e5e5e5 5%, #e5e5e5 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5e5e5", endColorstr="#e5e5e5");  background: -o-linear-gradient(top,#e5e5e5,e5e5e5);
 
-	background-color:#ff7f00;
-	border:0px solid #000000;
-	text-align:center;
-	border-width:0px 0px 1px 1px;
-	font-size:14px;
-	font-family:Arial;
-	font-weight:bold;
-	color:#ffffff;
+  background-color:#e5e5e5;
+  border:0px solid #000000;
+  text-align:center;
+  border-width:0px 0px 1px 1px;
+  font-size:14px;
+  font-family:Arial;
+  font-weight:bold;
+  color:#000000;
 }
 .CSSTableGenerator tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
-	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+  background:-o-linear-gradient(bottom, #e5e5e5 5%, #e5e5e5 100%);  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e5e5e5), color-stop(1, #e5e5e5) );
+  background:-moz-linear-gradient( center top, #e5e5e5 5%, #e5e5e5 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5e5e5", endColorstr="#e5e5e5");  background: -o-linear-gradient(top,#e5e5e5,e5e5e5);
 
-	background-color:#ff7f00;
+  background-color:#e5e5e5;
 }
 .CSSTableGenerator tr:first-child td:first-child{
-	border-width:0px 0px 1px 0px;
+  border-width:0px 0px 1px 0px;
 }
 .CSSTableGenerator tr:first-child td:last-child{
-	border-width:0px 0px 1px 1px;
+  border-width:0px 0px 1px 1px;
 }
 
 
@@ -131,5 +130,188 @@ img{
 #banner {
     background:url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10408848_336807489859025_4162148449713346557_n.jpg?oh=2c017f579be510724e5f514ef5de5188&oe=552EDF48&__gda__=1432832290_e54804ef969c9bc0f1c2c25ea55a5b5e');
     width:100%;
-    min-height:189px;
+    min-height:150px;
 }
+
+
+
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.oops {
+  display: none;
+}
+
+span {
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 27px;
+  font-family: 'Asap', sans-serif;
+  padding: 10px;
+}
+
+body {
+  padding: 0px 10px 10px;
+  background: #b19cd9;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+/* Transition definition */
+.container {
+  -webkit-transition: width 0.4s ease, height 0.4s ease;
+  -moz-transition: width 0.4s ease, height 0.4s ease;
+  -o-transition: width 0.4s ease, height 0.4s ease;
+  transition: width 0.4s ease, height 0.4s ease;
+}
+
+/* The container that defines the dimenions of the monitor - used in media queries */
+.container {
+  width: 900px;
+  height: 525px;
+  margin: 0 auto;
+}
+
+
+
+/* Black monitor outline */
+.monitor {
+  padding: 4%;
+  position:relative;
+  background: #333;
+  border-radius: 10px;
+  height: 100%;
+}
+
+/* Camera on top of the monitor */
+
+
+/* Power button on the bottom of monitor */
+
+
+/* The container of the content */
+.screen {
+  height: 100%;
+  /*overflow: hidden; /* so that scroll bar is hidden */
+}
+
+/* Scrollable section inside the screen */
+.content {
+  height: 100%;
+  width: calc(100% + 17px); /* 17px for scroll bar */
+  overflow-y: scroll;
+  position: relative;
+  background-color: #cccccc;
+}
+
+.screen:after {
+  content:'';
+  display: block;
+  height: 88%;
+  background: #333;
+  position: absolute;
+  right: 0;
+  top: 6%;
+  width: 4%;
+}
+
+/* Image on the screen */
+.content img {
+  display: block;
+  width: 100%;
+}
+
+/* Stand */
+
+/* Shadow on stand - have to set manually since border-top doesn't support % :( */
+
+
+/* Bottom of stand */
+
+
+/* Shadow */
+
+
+/* 1200px and less ------------------------------ */
+@media (max-width: 1200px) {
+  body {
+    
+  }
+
+  .container {
+    width: 800px;
+    height: 466px;
+  }
+
+  
+
+  .monitor-stand {
+    border-top: 20px solid #D1D3D6;
+  }
+}
+
+/* 992px and less ------------------------------ */
+@media (max-width: 992px) {
+  body {
+   
+  }
+
+  .container {
+    width: 600px;
+    height: 350px;
+  }
+
+ 
+  .monitor-stand {
+    border-top: 15px solid #D1D3D6;
+  }
+}
+
+/* 768px and less ------------------------------ */
+@media (max-width: 768px) {
+  body {
+    background: #AC92EC ;
+  }
+
+  
+
+  .monitor-stand {
+    border-top: 12px solid #D1D3D6;
+  }
+}
+
+/* 480px and less ------------------------------ */
+@media (max-width: 480px) {
+  body {
+    background: #FFCE54 ;
+  }
+
+ 
+
+  .monitor-stand {
+    border-top: 8px solid #D1D3D6;
+  }
+}
+
+/* 320px and less ------------------------------ */
+@media (max-width: 320px) {
+  body {
+  
+  }
+
+  span {
+    display: none;
+  }
+
+  .oops {
+    display: block;
+  }
+}
+

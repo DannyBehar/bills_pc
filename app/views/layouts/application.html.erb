@@ -2,16 +2,38 @@
 <html>
 <head>
 	<%= stylesheet_link_tag('application')%>
-  <title>BillsPc</title>
+  <title>BillsPc @ MAGFest</title>
  </head>
 <body>
 <div id= "banner" ></div> 
-<div class="home-title"><h1>Bill's PC</h1></div>
+<div class="home-title"><h1>Bill's PC @ MAGFest</h1></div>
 <br>
 <br>
 <br>
-<!--before yield-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<span class="oops">Oops.. window is too small!</span>
+<div class="container">
+  <div class="monitor">
+  	<div class="screen">
+      <div class="content">
+
+        <% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+       <!--before yield-->
 <%= yield %>
 <!--after yield-->
+      </div>
+    </div>
+  </div>
+  <div class="monitor-stand">
+  </div>
+</div>
+
+
 </body>
 </html>

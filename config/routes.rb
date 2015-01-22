@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  get 'removelisting/edit'
+
+  get 'removelisting/update'
+
+  get 'addlisting/edit'
+
+  get 'addlisting/update'
+
+  get 'admin/home'
+
+  devise_for :users
   root :to => "home#index"
   match ':controller(/:action(/:id))', :via => :get
   match ':controller(/:action(/:id))', :via => :post
