@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
+  socket: /var/run/mysqld/mysqld.sock
   database: bills_pc_production
   username: bills_pc
-  password: <%= ENV['BILLS_PC_DATABASE_PASSWORD'] %>
+  password: catchem
